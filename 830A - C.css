@@ -1,0 +1,24 @@
+body{ 
+    margin: 0;
+    background-image: linear-gradient( to bottom,rgb(255, 0, 0),rgb(255, 0, 0) );
+    background-attachment: fixed;
+    
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    text-align: center;}
+
+li{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1cm;
+}
+
+
+a{
+    color:inherit;
+}
+
