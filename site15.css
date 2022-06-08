@@ -1,0 +1,26 @@
+body{ 
+    margin: 0;
+    background-color: black;
+    background-attachment: fixed;
+    
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    text-align: center;
+    margin-top: 300px;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 35px;
+    font-size: 1cm;
+}
+
+
+a{
+    color:inherit;
+}
+

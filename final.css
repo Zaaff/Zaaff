@@ -1,0 +1,27 @@
+body{ 
+    margin: 0;
+    background-image: linear-gradient( to bottom,rgb(163, 45, 163),rgb(92, 5, 90) );
+    background-attachment: fixed;
+    
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    text-align: center;}
+
+li{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+
+a{
+    color:inherit;
+}
+
+iframe{
+    margin-top: 35px;
+}
