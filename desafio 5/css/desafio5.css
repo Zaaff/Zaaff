@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+@media screen and (max-width:1920px) {
+
+    body{
+        background-image:linear-gradient(130.02deg,#628E75 0.66%,#1A4855 83.32%);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+
+
+    #conteudos{
+        margin-top: 41px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* LOGOS */
+    
+    .logos{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .logos ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .logos ul li{
+        padding-right:31px;
+    }
+    
+    /* TEXTOS */
+    
+    #textos{
+        margin-top: 76;
+        font-family: 'Oswald';
+        width: 445px;
+        font-style: normal;
+    }
+    
+    #textos .texto_cabeçalho{
+        font-size: 20px;
+        color: #F9F9F9;
+        font-weight: 700;
+    }
+    
+    #textos .titulo{
+        margin-top: 14px;
+        font-size: 68px;
+        color: #F9F9F9;
+        font-weight: 900;
+    }
+    
+    #textos .desc{
+        margin-top: 25px;
+        font-size: 16px;
+        color: #F9F9F9;
+    }
+    
+    #botoes{
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    #botoes button{
+        margin-right: 10px;
+        width: 245px;
+        height: 45px;
+        color: #F9F9F9;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .assistir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #658E76;
+        border: none;
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+    
+    .play{
+        margin-right: 5px;
+    }
+    
+    
+    .trailer{
+        text-align: center;
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+        background-color: transparent;
+        border: 2px solid #658E76;
+    }
+    
+    
+    /* FANTASMAS  */
+    
+    #fantasmas{
+        display: flex;
+        margin-left: 160px;
+    }
+    
+    #fantasmas img{
+        transform: translateY(0px);
+        animation: animacao 5s ease-in-out infinite;
+    }
+    
+    @keyframes animacao{
+        0%{transform: translateY(0px);}
+        50%{transform: translateY(-30px);}
+        100%{transform: translateY(0px);}
+    }
+}
+
+@media screen and (max-width:1024px) {
+    body{
+        background-image:linear-gradient(130.02deg,#628E75 0.66%,#1A4855 83.32%);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+     
+    #conteudos{
+        margin-top: 41px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container1{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3%;
+    }
+
+    /* LOGOS
+    
+    .logos{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .logos ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .logos ul li{
+        padding-right:31px;
+    }
+    
+    /* TEXTOS */
+    .logos{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .logos ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+    
+    .logos ul li{
+        padding-right:31px;
+    }
+
+
+    #textos{
+        margin-top: 76;
+        font-family: 'Oswald';
+        width: 445px;
+        font-style: normal;
+    }
+    
+    #textos .texto_cabeçalho{
+        font-size: 20px;
+        color: #F9F9F9;
+        font-weight: 700;
+    }
+    
+    #textos .titulo{
+        margin-top: 14px;
+        font-size: 68px;
+        color: #F9F9F9;
+        font-weight: 900;
+    }
+    
+    #textos .desc{
+        margin-top: 25px;
+        font-size: 16px;
+        color: #F9F9F9;
+    }
+    
+    #botoes{
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    #botoes button{
+        margin-right: 10px;
+        width: 245px;
+        height: 45px;
+        color: #F9F9F9;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .assistir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #658E76;
+        border: none;
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+    
+    .play{
+        margin-right: 5px;
+    }
+    
+    
+    .trailer{
+        text-align: center;
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+        background-color: transparent;
+        border: 2px solid #658E76;
+    }
+    
+    
+    /* FANTASMAS  */
+    
+    #fantasmas{
+        display: flex;
+        margin-left: 5px;
+    }
+    
+    #fantasmas img{
+        transform: translateY(0px);
+        animation: animacao 5s ease-in-out infinite;
+    }
+    
+    @keyframes animacao{
+        0%{transform: translateY(0px);}
+        50%{transform: translateY(-30px);}
+        100%{transform: translateY(0px);}
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-image:linear-gradient(130.02deg,#628E75 0.66%,#1A4855 83.32%);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        margin: 0;
+    }
+    
+    #conteudos{
+        margin-top: 14px;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* LOGOS */
+    
+    .imagem{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 25%;
+    }
+
+    .logos{
+        display: flex;
+    }
+    
+    
+    .logos ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top:30px ;
+    }
+    
+    .logos ul li{
+        padding-right:31px;
+    }
+    
+    /* TEXTOS */
+    
+    #textos{
+        font-family: 'Oswald';
+        width: 445px;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    
+
+    #textos .texto_cabeçalho{
+        font-size: 18px;
+        color: #F9F9F9;
+        font-weight: 700;
+    }
+    
+    #textos .titulo{
+        margin-top: 14px;
+        font-size: 56px;
+        color: #F9F9F9;
+        font-weight: 900;
+    }
+    
+    #textos .desc{
+        margin-top: 25px;
+        font-size: 14px;
+        color: #F9F9F9;
+    }
+    
+    #botoes{
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    #botoes button{
+        margin-right: 10px;
+        width: 245px;
+        height: 45px;
+        color: #F9F9F9;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .assistir{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #658E76;
+        border: none;
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+    }
+    
+    .play{
+        margin-right: 5px;
+    }
+    
+    
+    .trailer{
+        display: none;
+        text-align: center;
+        clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+        background-color: transparent;
+        border: 2px solid #658E76;
+    }
+    
+    
+    /* FANTASMAS  */
+    
+    #fantasmas{
+        padding-left: 100px;
+        display: flex;
+    }
+    
+    #fantasmas img{
+        transform: translateY(0px);
+        animation: animacao 5s ease-in-out infinite;
+    }
+    
+    @keyframes animacao{
+        0%{transform: translateY(0px);}
+        50%{transform: translateY(-30px);}
+        100%{transform: translateY(0px);}
+    }
+}
